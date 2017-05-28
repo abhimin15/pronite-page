@@ -1,0 +1,848 @@
+<html>
+<head>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<style>
+#f-page
+{
+
+}
+#heading
+{
+	font-size: 115px;
+	font-weight: 400;
+	font-family: Showcard Gothic;
+	text-align:center;
+     margin-top: 28%;
+}
+#side-icon
+{
+margin-top:1%;font-size:50px;color:white;
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+	#heading{
+		font-size: 85px;
+		margin-top:20%;
+}
+}
+@media (min-width: 530px) and (max-width: 800px) {
+	#heading{
+		font-size: 75px;
+		margin-top:70%;
+}
+}
+@media (min-width: 150px) and (max-width: 530px) {
+	#heading{
+		font-size: 50px;
+		margin-top:80%;
+		margin-left:-20%;
+}
+
+#side-icon
+{
+	font-size:35px;
+}
+}
+
+#pro-page
+{
+	animation-name:myframes;
+	animation-duration:10s;
+	animation-timing-function: ease-in-out;
+	animation-delay:1s;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+	animation-iteration-count: infinite;
+}
+
+@keyframes myframes
+{
+	0%
+	{
+	    background-color:#AF002A; 
+	}
+	30%
+	{
+		background-color: #6bc20d;
+	}
+	70%
+	{
+		background-color: #1a60ee;
+	}
+
+}
+#pronite
+{
+	overflow: hidden;
+}
+#day1
+{
+	padding:0%;
+	margin:0%;
+	height: 100%
+}
+#day2
+{
+	padding:0%;
+	margin:0%;
+	height: 100%
+}
+#day3
+{
+	height: 100%
+	margin:0%;
+	padding:0%;
+}
+.day-title
+{
+	font-size: 60px;
+	font-family: Stencil Std;
+	font-weight: 200;
+	color:white;
+	text-align:center;
+	color:#AF002A;
+}
+#enquiry
+{
+	text-align: center;
+	position: relative;
+    top: 35%;
+    opacity:0.7;
+}
+#front-but
+{
+	position: relative;
+    top: 43%;
+}
+
+#more-info1,#more-info2,#more-info3
+{
+	position: relative;
+    top: 32%;
+    text-align: center;
+    display: none;
+}
+.info-title
+{
+	font-size:25px;
+}
+#dayove{
+	display:none;
+}
+.dayclass1:hover
+{
+	background-color:black;
+	opacity: 0.6;
+}   
+.dayclass2:hover
+{
+	background-color:black;
+	opacity: 0.6;
+}  
+.dayclass3:hover
+{
+	background-color:black;
+	opacity: 0.6;
+} 
+#front1,#front2,#front3
+{
+	background-color: transparent;
+    border-radius: 0px;
+    border: 2px solid #AF002A;
+    color:#AF002A ;
+    
+} 
+#back1
+{
+	display:none;
+	background-color:transparent;
+    border: 0px;
+    font-size: 20px;
+    color: white;
+} 
+#back2
+{
+	display:none;
+	background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    color: white;
+} 
+#back3
+{
+	display:none;
+	background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    color: white;
+} 
+#back-but
+{
+	position: absolute;
+    bottom: 5%;
+    right: 1%;
+    
+}  
+#back1:hover,#back2:hover,#back3:hover
+{
+  color:#AF002A;
+}                    
+                              <!--footer content-->
+
+#footer
+{
+	position:relative;
+	top:0%;
+}                              
+.copyright {
+    background-color: #1A1D22;
+   
+    border-bottom: 3px solid #f39c12;
+}
+.copyright h2 {
+    height: 0px;
+    margin: 0px;
+}
+.copy_right_text
+{
+    padding-top:-50px;
+}
+.copy_right_text
+{
+    height:150px;
+
+}
+#copyright_Title
+{
+    float: left;
+    padding-left: 3%;
+    padding-top:10px;
+    color:#f39c12;
+
+}
+#sponsoredBy
+{
+    float:right;
+    padding-right: 3%;
+    padding-top: 10px;
+    color:#f39c12;
+    text-align:right;
+
+}
+#hiphen
+{
+    font-weight:bolder;
+}
+.footer_content
+{
+color:#f39c12;
+padding-bottom: 6px;
+}
+.shr_link_ctnt:hover
+{
+  color:white;
+}
+.copy_right_text p {
+    color: #8C8B8A;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-top: 1.3%;
+}
+.copy_right_text p a {
+    text-decoration: none;
+    color: #f39c12;
+}
+.copy_right_text p span {
+    font-weight: 300;
+}
+@media (min-width:500px) and (max-width:1000px)
+{
+#copyright_Title
+{
+    float: left;
+    padding-left: 2%;
+    padding-top:25px;
+    color:#f39c12;
+    font-size:11px;
+
+}
+#sponsoredBy
+{
+    float:right;
+    padding-right: 2%;
+    padding-top: 25px;
+    color:#f39c12;
+    text-align:right;
+    font-size:11px;
+
+}
+
+}
+.dayclass1,.dayclass2,.dayclass3
+{
+	width:100%;height:100%;position: relative;top: -100%;
+}
+.afterclass1,.afterclass2,.afterclass3
+{
+ background-color:#ED9121;
+}
+.game1,.game2,.game3
+{
+	background-color:#ED9121;z-index:10;,opacity:1;,display:visible;
+}
+#next1,#next2,#next3
+{
+	display: none;
+	background-color: transparent;
+    border-radius: 0px;
+    border: 2px solid #AF002A;
+    color:#AF002A ;
+}
+#previous1,#previous2,#previous3
+{
+	display:none;
+	background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    color: white;
+}
+@media (min-width:300px) and (max-width:780px)
+{
+#next1,#next2,#next3
+{
+	display:block;
+}
+#front1,#front2,#front3
+{
+	display:none;
+}
+}
+                               <!--clock segment-->
+#clock
+{
+    
+}
+.numbers {
+    width: 95%;
+    height: 60%; 
+    font-family: Arial; 
+    font-size: 56px;   /* options are normal, bold, bolder, lighter */
+    font-style: normal;  /* options are normal or italic */
+    color:  white;
+    background-color:#8b344f ;
+    /* change color using the hexadecimal color codes for HTML */
+}
+.title 
+{    /* the styles below will affect the title under the numbers, i.e., "Days", "Hours", etc. */
+    width: 95%;
+    height: 20%;
+    font-family: Arial; 
+    font-size: 22px;   /* options are normal, bold, bolder, lighter */
+    color: white; 
+    background-color:#8b344f ;
+/* change color using the hexadecimal color codes for HTML */
+}
+#table 
+{
+    
+    border-style: none;
+    padding-right: 5%;
+    width:100%;
+   
+
+}
+@media (min-width: 770px) and (max-width: 1200px) {
+	.numbers {
+    width: 95%;
+    height: 60%; 
+    font-family: Arial; 
+    font-size: 40px;   /* options are normal, bold, bolder, lighter */
+    font-style: normal;  /* options are normal or italic */
+    color:  white;
+    background-color:#8b344f ;
+    /* change color using the hexadecimal color codes for HTML */
+}
+.title 
+{    /* the styles below will affect the title under the numbers, i.e., "Days", "Hours", etc. */
+    width: 95%;
+    height: 20%;
+    font-family: Arial; 
+    font-size: 18px;   /* options are normal, bold, bolder, lighter */
+    color: white; 
+    background-color:#8b344f ;
+/* change color using the hexadecimal color codes for HTML */
+}
+#table 
+{
+    
+    border-style: none;
+    padding-right: 5%;
+    width:100%;
+   
+
+}
+	}
+@media (min-width: 600px) and (max-width: 770px) {
+	.numbers {
+    width: 95%;
+    height: 60%; 
+    font-family: Arial; 
+    font-size: 30px;   /* options are normal, bold, bolder, lighter */
+    font-style: normal;  /* options are normal or italic */
+    color:  white;
+    background-color:#8b344f ;
+    /* change color using the hexadecimal color codes for HTML */
+}
+.title 
+{    /* the styles below will affect the title under the numbers, i.e., "Days", "Hours", etc. */
+    width: 95%;
+    height: 20%;
+    font-family: Arial; 
+    font-size: 15px;   /* options are normal, bold, bolder, lighter */
+    color: white; 
+    background-color:#8b344f ;
+/* change color using the hexadecimal color codes for HTML */
+}
+#table 
+{
+    
+    border-style: none;
+    padding-right: 5%;
+    width:100%;
+   
+
+}
+	}	
+	@media (min-width: 150px) and (max-width: 600px) {
+		#table
+		{
+			display:none;
+		}
+		#subtitle
+		{
+			font-size:30px;
+		}
+	}
+</style>
+</head>
+<body style="margin:0%;padding:0%;">
+
+                             <!--first page-->
+
+	<section id="f-page">
+		<div class="carousel slide" data-interval="9700" data-ride="carousel">
+		    <div class="carousel-inner">
+			    <div class="item active">
+			        <img src="image/rock1.jpg" id="rock-image" style="width:100%;height:100%;">
+			    </div>
+			    <div class="item">
+			        <img src="image/rock4.jpg" id="rock-image" style="width:100%;height:100%;">
+			    </div>
+			    <div class="item">
+			        <img src="image/rock3.jpg" id="rock-image" style="width:100%;height:100%;">
+			    </div>
+		    </div>
+	    </div> 
+		<div class="container" id="pro-page" style="width:100%;height:100%;opacity:0.75; position: absolute;top: 0%; z-index: 1;background-color:#AF002A; ">
+			<div class="row">
+				<div class="col-md-3 col-sm-3 col-xs-3" style="margin-top:1%;left:1.5%;">
+                  <div id="subtitle">
+                  <i class="fa fa-bars" aria-hidden="true" id="side-icon" style=""></i>
+                  </div>
+		        </div>
+				<div class="col-md-6 col-sm-6 col-xs-6">
+				<center>
+				<div id="heading">
+				<span id="p" style="display:none;">P</span><span id="r" style="display:none;">R</span><span id="o" style="display:none;">O</span><span id="n" style="display:none;">N</span><span id="i" style="display:none;">I</span><span id="t" style="display:none;">T<span><span id="e" style="display:none;">E</span>
+				</div>
+				</center>
+				</div>
+		        <div class="col-md-3 col-sm-3 col-xs-3" style="margin:0px;padding:0px;margin-top:1%;padding-right:1%;">
+		           <div id="clock">
+    
+				    <table id="table" border="0">
+					      <tr>
+					        <td align="center" colspan="6"><div class="numbers" id="count2" style="padding: 5px 0 0 0; "></div></td>
+					      </tr>
+					      <tr id="spacer1">
+					        <td align="center" ><div class="numbers" id="dday"></div></td>
+					        <td align="center" ><div class="numbers" id="dhour"></div></td>
+					        <td align="center" ><div class="numbers" id="dmin"></div></td>
+					        <td align="center" ><div class="numbers" id="dsec"></div></td>
+					        
+					       </tr>
+					       <tr id="spacer2">
+					       
+					        <td align="center" ><div class="title" id="days">DD</div></td>
+					        <td align="center" ><div class="title" id="hours">HH</div></td>
+					        <td align="center" ><div class="title" id="minutes">MM</div></td>
+					        <td align="center" ><div class="title" id="seconds">SS</div></td>
+					        
+					       </tr>
+				    </table>
+				</div>
+
+<script type="text/javascript">
+
+/*
+Count down until any date script-
+By JavaScript Kit (www.javascriptkit.com)
+Over 200+ free scripts here!
+Modified by Robert M. Kuhnhenn, D.O. 
+on 5/30/2006 to count down to a specific date AND time,
+and on 1/10/2010 to include time zone offset.
+*/
+
+/*  Change the items below to create your countdown target date and announcement once the target date and time are reached.  */
+var current="Winter is here!";        //—>enter what you want the script to display when the target date and time are reached, limit to 20 characters
+var year=2017;        //—>Enter the count down target date YEAR
+var month=07;          //—>Enter the count down target date MONTH
+var day=16;           //—>Enter the count down target date DAY
+var hour=23;          //—>Enter the count down target date HOUR (24 hour clock)
+var minute=16;        //—>Enter the count down target date MINUTE
+var tz=-5.5;            //—>Offset for your timezone in hours from UTC (see http://wwp.greenwichmeantime.com/index.htm to find the timezone offset for your location)
+
+//—>    DO NOT CHANGE THE CODE BELOW!    <—
+var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec");
+
+function countdown(yr,m,d,hr,min){
+    theyear=yr;themonth=m;theday=d;thehour=hr;theminute=min;
+    var today=new Date();
+    var todayy=today.getYear();
+    if (todayy < 1000) { todayy+=1900; }
+    var todaym=today.getMonth();
+    var todayd=today.getDate();
+    var todayh=today.getHours();
+    var todaymin=today.getMinutes();
+    var todaysec=today.getSeconds();
+    var todaystring1=montharray[todaym]+" "+todayd+", "+todayy+" "+todayh+":"+todaymin+":"+todaysec;
+    var todaystring=Date.parse(todaystring1)+(tz*1000*60*60);
+    var futurestring1=(montharray[m-1]+" "+d+", "+yr+" "+hr+":"+min);
+    var futurestring=Date.parse(futurestring1)-(today.getTimezoneOffset()*(1000*60));
+    var dd=futurestring-todaystring;
+    var dday=Math.floor(dd/(60*60*1000*24)*1);
+    var dhour=Math.floor((dd%(60*60*1000*24))/(60*60*1000)*1);
+    var dmin=Math.floor(((dd%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+    var dsec=Math.floor((((dd%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
+    if(dday<=0&&dhour<=0&&dmin<=0&&dsec<=0){
+        document.getElementById('count2').innerHTML=current;
+        document.getElementById('count2').style.display="inline";
+        document.getElementById('count2').style.width="390px";
+        document.getElementById('dday').style.display="none";
+        document.getElementById('dhour').style.display="none";
+        document.getElementById('dmin').style.display="none";
+        document.getElementById('dsec').style.display="none";
+        document.getElementById('days').style.display="none";
+        document.getElementById('hours').style.display="none";
+        document.getElementById('minutes').style.display="none";
+        document.getElementById('seconds').style.display="none";
+        document.getElementById('spacer1').style.display="none";
+        document.getElementById('spacer2').style.display="none";
+        return;
+    }
+    else {
+        document.getElementById('count2').style.display="none";
+        if(dday<10)
+        {
+        document.getElementById('dday').innerHTML='0'+dday;
+        }else{
+        document.getElementById('dday').innerHTML=dday;
+        }
+        if(dhour<10){
+        document.getElementById('dhour').innerHTML='0'+dhour;
+        }else{
+        	document.getElementById('dhour').innerHTML=dhour;
+        }
+        if(dmin<10){
+        document.getElementById('dmin').innerHTML='0'+dmin;
+        }else{
+        	document.getElementById('dmin').innerHTML=dmin;
+        }
+        if(dsec<10)
+        {
+        document.getElementById('dsec').innerHTML='0'+dsec;
+        }else{
+        	document.getElementById('dsec').innerHTML=dsec;
+        }
+        setTimeout("countdown(theyear,themonth,theday,thehour,theminute)",1000);
+    }
+}
+countdown(year,month,day,hour,minute);
+</script>
+		        </div>
+			</div>
+		</div>
+	</section>
+
+                                <!--eventofpronite-->
+
+	<section id="pronite">
+		<div class="container" style="width:100%" id="proevent">
+			<div class="row" style="height:100%">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="day1">
+				   <img src="image/kristen1.jpg" class="img-responsive" style="width:100%;height:100%;">
+				   <div id="dayover1" class="dayclass1" style="width:100%;height:100%;position: relative;top: -100%;">
+				   	   <div id="enquiry">
+				   	   	  <p class="day-title">DAY1</p>
+				   	   </div>
+				   	   <div id="more-info1">
+				   	   	  <p class="info-title">
+				   	   	  	ABHISHEK SINGH
+				   	   	  </p>
+				   	   </div>
+				   	   <div id="front-page1" style="width:100%;height:70%;margin-top: -2%;background-color:white;display:none;">
+				   	       
+				   	   </div>
+                        <div id="front-but">
+				   	   <center>
+				   	   <button type="button" class="btn btn-lg" id="front1">moreinfo</button>
+				   	   <button type="button" class="btn" id="next1">moreinfo</button>
+				   	   </center>
+				   	   </div>
+
+				   	   <div id="back-but">
+				   	   <center>
+				   	   <button type="button" class="btn" id="back1" style="display:none;">Back</button>
+				   	   <button type="button" class="btn" id="previous1" style="display:none;">Back</button>
+				   	   </center>
+				   	   </div>
+				   </div>	
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id=day2>
+					<img src="image/scarlet.jpg" class="img-responsive" style="width:100%;height:100%;">
+					<div id="dayover2" class="dayclass2" style="width:100%;height:100%;position: relative;top: -100%;">
+						<div id="enquiry">
+				   	   	  <p class="day-title">DAY2</p>
+				   	   </div>
+				   	   <div id="more-info2">
+				   	   	  <p class="info-title">
+				   	   	  	ABHISHEK SINGH
+				   	   	  </p>
+				   	   </div>
+				   	   <div id="front-page2" style="width:100%;height:70%;margin-top: -2%;background-color:white;display:none;">
+				   	       
+				   	   </div>
+				   	   <div id="front-but">
+				   	   <center>
+				   	   <button type="button" class="btn btn-lg" id="front2">moreinfo</button>
+				   	   <button type="button" class="btn" id="next2">moreinfo</button>
+				   	   </center>
+				   	   </div>
+				   	   <div id="back-but">
+				   	   <center>
+				   	   <button type="button" class="btn" id="back2">Back</button>
+				   	   <button type="button" class="btn" id="previous2" style="display:none;">Back</button>
+				   	   </center>
+				   	   </div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="day3">
+					<img src="image/kristen2.jpg" class="img-responsive" style="width:100%;height:100%;">
+					<div id="dayover3" class="dayclass3" style="width:100%;height:100%;position: absolute;top: 0%;">
+						<div id="enquiry">
+				   	   	  <p class="day-title">DAY3</p>
+				   	   </div>
+				   	   <div id="more-info3">
+				   	   	  <p class="info-title">
+				   	   	  	ABHISHEK SINGH
+				   	   	  </p>
+				   	   </div>
+				   	   <div id="front-page3" style="width:100%;height:70%; margin-top: -2%;background-color:white;display:none;">
+				   	       
+				   	   </div>
+				   	   <div id="front-but">
+				   	   <center>
+				   	   <button type="button" class="btn btn-lg" id="front3">moreinfo</button>
+				   	   <button type="button" class="btn" id="next3">moreinfo</button>
+				   	   </center>
+				   	   </div>
+				   	   <div id="back-but">
+				   	   <center>
+				   	   <button type="button" class="btn" id="back3">Back</button>
+				   	   <button type="button" class="btn" id="previous3" style="display:none;">Back</button>
+				   	   </center>
+				   	   </div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+                           <!--footer content-->
+
+	<section id="footer">
+		<div class="container" style="width:100%;height:17%;background-color:rgb(20, 11, 11);">
+			<div class="row" style="background-color:rgb(20, 11, 11);">
+				<div class="col-md-12" style="margin-top: 1%;">
+				   <p class="footer_content">
+                       <span id="copyright_Title">
+                            IIT (BHU) VARANASI<br/><br/>Indian Institute of Technology (BHU),Varanasi,Lanka,Varanasi-221005
+                       </span>
+                       <span id="sponsoredBy">
+                            kashiyatra@iitbhu.ac.in<br/><br/>
+	                        <a href="https://www.facebook.com/kashiyatra.IITBHU/" class="shr_link_ctnt">
+	                            <i class="fa fa-facebook" style="font-size:135%;"></i>
+	                        </a>   <a href="https://twitter.com/Kashiyatra.IITBHU/" class="shr_link_ctnt" style="margin-left:11%;"> <i class="fa fa-twitter" style="font-size:135%;"></i> </a>  <a href="https://www.instagram.com/kashiyatra_iitbhu/" class="shr_link_ctnt" style="margin-left:11%;">    <i class="fa fa-instagram" style="font-size:135%;"></i> </a>  <a href="https://www.youtube.com/channel/UCJQCjxqqxdM3JlvKericaog" class="shr_link_ctnt" style="margin-left:11%;"> <i class="fa fa-youtube" style="font-size:135%;"></i> </a>
+	                        
+	                        <p id="share_token"></p>
+                        </span>
+                    </p>
+				                    </div>
+				</div>
+			</div>
+		</div>
+	</section>
+<script>
+ $(document).ready(function(){
+            $('#dayover1').on('mouseover',function(){
+            	$('#more-info1').fadeIn(600);
+            });
+            $('#dayover1').on('mouseleave',function(){
+            	$('#more-info1').fadeOut(300);
+            });
+            $('#dayover2').on('mouseleave',function(){
+            	$('#more-info2').fadeOut(300);
+            });
+            $('#dayover2').on('mouseover',function(){
+            	$('#more-info2').fadeIn(600);
+            });
+            $('#dayover3').on('mouseover',function(){
+            	$('#more-info3').fadeIn(600);
+            });
+            $('#dayover3').on('mouseleave',function(){
+            	$('#more-info3').fadeOut(300);
+            });
+
+            $('#front1').on('click', function() {
+            $(this).css({display:'none'}); 
+            $('#front-page1').css({display:'block'});	
+            $('#f-page').css({display:'none'});
+            $('#footer').css({display:'none'});
+            $('#back1').css({display:'block'});
+	        $('#dayover1').animate({height: "100%", width: "300%"}, 500);
+	        $("#dayover1").removeClass("dayclass1");
+            $("#dayover1").addClass("game1");
+	    });
+
+	        $('#front2').on('click', function() {
+	        $(this).css({display:'none'}); 
+	        $('#front-page2').css({display:'block'});
+	        $('#f-page').css({display:'none'});	
+	        $('#footer').css({display:'none'});
+            $('#back2').css({display:'block'});
+	        $('#dayover2').animate({height: "100%", width:"300%",'margin-left':'-100%'}, 500);
+	        $("#dayover2").removeClass("dayclass2");
+            $("#dayover2").addClass("game2");
+	        
+	    });
+	        $('#front3').on('click', function() {
+	        $(this).css({display:'none'}); 
+	        $('#front-page3').css({display:'block'});
+	        $('#f-page').css({display:'none'});
+	        $('#footer').css({display:'none'});	
+            $('#back3').css({display:'block',zIndex:'10'});
+	        $('#dayover3').animate({height: "100%", width: "300%",'margin-left':'-200%'}, 500);
+	        $("#dayover3").removeClass("dayclass3");
+            $("#dayover3").addClass("game3");
+
+	    });
+	        $('#p').fadeIn(275,function(){
+	        	$('#r').fadeIn(275,function(){
+	        		$('#o').fadeIn(275,function(){
+	        		     $('#n').fadeIn(275,function(){
+	        		         $('#i').fadeIn(275,function(){
+	        		            $('#t').fadeIn(275,function(){
+	        		               $('#e').fadeIn(275,function(){
+	        		               	$('#heading').fadeOut(500).fadeIn(500);
+	        		                });
+	        	                });
+	        	            });
+	        	        });
+	        	    });
+	        	});
+	        });
+	        $('#back1').on('click',function(){
+	        	$(this).css({display:'none'});
+	        	$('#front-page1').css({display:'none'});
+	        	$('#f-page').css({display:'block'});
+	        	$('#footer').css({display:'block'});
+	        	$('#dayover1').animate({height: "100%", width: "100%"}, 500,function(){
+	        	$('#front1').css({display:'block'}); 	
+	        	$(this).removeClass("game1");
+                $(this).addClass("dayclass1");
+	        	});
+	        });
+	        $('#back2').on('click',function(){
+	        	$(this).css({display:'none'});
+	        	$('#front-page2').css({display:'none'});
+	        	$('#f-page').css({display:'block'});
+	        	$('#footer').css({display:'block'});
+	        	$('#dayover2').animate({height: "100%", width: "100%",'margin-left':'0%'}, 500,function(){
+	        	$('#front2').css({display:'block'});	
+	        	$(this).removeClass("game2");
+                $(this).addClass("dayclass2");	
+	        	});
+	        });
+	        $('#back3').on('click',function(){
+	        	$(this).css({display:'none'});
+	        	$('#front-page3').css({display:'none'});
+	        	$('#f-page').css({display:'block'});
+	        	$('#footer').css({display:'block'});
+	        	$('#dayover3').animate({height: "100%", width: "100%",'margin-left':'0%'}, 500,function(){
+	            $('#front3').css({display:'block'});		
+	        	$(this).removeClass("game3");
+                $(this).addClass("dayclass3");
+	        	});
+	        });
+	       });
+$(document).ready(function(){
+    $("#next1").click(function(){
+        $("#dayover1").removeClass("dayclass1");
+        $("#dayover1").addClass("afterclass1");
+        $(this).css({display:'none'});
+        $('#previous1').css({display:'block'});
+    });
+    $("#next2").click(function(){
+        $("#dayover2").removeClass("dayclass2");
+        $("#dayover2").addClass("afterclass2");
+        $(this).css({display:'none'});
+        $('#previous2').css({display:'block'});
+    });
+    $("#next3").click(function(){
+        $("#dayover3").removeClass("dayclass3");
+        $("#dayover3").addClass("afterclass3");
+        $(this).css({display:'none'});
+        $('#previous3').css({display:'block'});
+    });
+    $("#previous1").click(function(){
+        $("#dayover1").removeClass("afterclass1");
+        $("#dayover1").addClass("dayclass1");
+        $(this).css({display:'none'});
+        $('#next1').css({display:'block'});
+    });
+    $("#previous2").click(function(){
+        $("#dayover2").removeClass("afterclass2");
+        $("#dayover2").addClass("dayclass2");
+        $(this).css({display:'none'});
+        $('#next2').css({display:'block'});
+    });
+    $("#previous3").click(function(){
+        $("#dayover3").removeClass("afterclass3");
+        $("#dayover3").addClass("dayclass3");
+        $(this).css({display:'none'});
+        $('#next3').css({display:'block'});
+    });
+});
+  
+
+</script>
+</body>
+</html>
