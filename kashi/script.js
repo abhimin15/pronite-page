@@ -55,29 +55,3 @@ $('.slides').on('mouseenter',stopslider).on('mouseleave',startslider);
 startslider();
 });
 
-/*$(document).ready(function(){
-
-	$('#button_left').on('click',function(){
-    $('.slides').animate({'margin-left':'-420px'},300);},300);
-	});
-
-	$('#button_right').on('click',function(){
-    $('.slides').animate({'margin-left':'420px'},300);},300);
-	});
-});
-/*
-function leftslide()
-  {
-  	$('#button_left').on('click',function(){
-    $('.slides').animate({'margin-left':'-420px'},300);},300);
-	});
-
-  }
- function rightslide()
-  {
-  	$('#button_left').on('click',function(){
-    $('.slides').animate({'margin-left':'-420px'},300);},300);
-	});
-
-  } 
-  */
